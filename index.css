@@ -1,3 +1,71 @@
-.heading {
-    color:green;
+/** @format */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 150px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 20px;
+  font-size: 24px;
+}
+
+.body-container {
+  padding: 20px;
+}
+
+.search-container {
+  display: flex;
+  gap: 20px;
+}
+
+.input-search {
+  height: 40px;
+  width: 300px;
+  border-radius: 5px;
+}
+
+.search-button {
+  border-radius: 5px;
+  width: 90px;
+}
+
+.res-container {
+  padding-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.res-card {
+  width: 280px;
+  height: 430px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+  border-radius: 10px;
+}
+
+.res-image {
+  width: 100%;
+}
+
+.res-card > h2 {
+  font-weight: bold;
+}
+
+.res-card > h4 {
+  color: grey;
 }
